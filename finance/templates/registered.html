@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Portfolio
+{% endblock %}
+
+{% block main %}
+    <header>
+        <div class="alert alert-primary border text-center" role="alert">
+            Registered!
+        </div>
+    </header>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td colspan="4"></td>
+                <td>$10,000.00</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td colspan="4">CASH</td>
+                <td>$10,000.00</td>
+            </tr>
+        </tbody>
+    </table>
+{% endblock %}
